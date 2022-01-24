@@ -1,1 +1,0 @@
-const name = "Jordan Yowell";
