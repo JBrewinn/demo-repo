@@ -1,3 +1,3 @@
 const name = "Jordan Yowell";
 
-alert('Hello' + name);
+alert('Hello World');
