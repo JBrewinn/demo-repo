@@ -14,40 +14,43 @@
 //     i++;
 // }
 
+
 // Create a Do While loop that will have two fighters battle to see who wins (both start at 100 health and damage is randomized from 1 to 25 every iteration)
 
-var goblinHealth = 100;
-var dwarfHealth = 100;
+// var goblinHealth = 100;
+// var dwarfHealth = 100;
 
-do {
-    var goblinDamage = Math.floor(Math.random() * 25) + 1;
-    var dwarfDamage = Math.floor(Math.random() * 25) + 1;
-    if (goblinDamage > dwarfHealth) {
-        dwarfHealth = 0;
-        console.log("Goblin did " + goblinDamage + " damage. " + "Dwarf has " + dwarfHealth + " health left.");
-        console.log("Overkill!! Goblin Wins!");
-        break;
-    } else if (goblinDamage < dwarfHealth) {
-        dwarfHealth -= goblinDamage;
-        console.log("Goblin did " + goblinDamage + " damage. " + "Dwarf has " + dwarfHealth + " health left.");
-    } else if (goblinDamage == dwarfHealth) {
-        dwarfHealth -= goblinDamage;
-        console.log("Goblin did " + goblinDamage + " damage. " + "Dwarf has " + dwarfHealth + " health left.");
-        console.log("Goblin Wins!");
-        break;
-    };
-    if (dwarfDamage > goblinHealth) {
-        goblinHealth = 0;
-        console.log("Dwarf did " + dwarfDamage + " damage. " + "Goblin has " + goblinHealth + " health left.")
-        console.log("Overkill!! Dwarf Wins!");
-        break;
-    } else if (dwarfDamage < goblinHealth) {
-        goblinHealth -= dwarfDamage;
-        console.log("Dwarf did " + dwarfDamage + " damage. " + "Goblin has " + goblinHealth + " health left.");
-    } else if (dwarfDamage == goblinHealth) {
-        goblinHealth -= dwarfDamage;
-        console.log("Dwarf did " + dwarfDamage + " damage. " + "Goblin has " + goblinHealth + " health left.")
-        console.log("Dwarf Wins!");
-        break;
-    };
-} while (goblinHealth > 0 || dwarfHealth > 0);
+// do {
+//     var goblinDamage = Math.floor(Math.random() * 25) + 1;
+//     var dwarfDamage = Math.floor(Math.random() * 25) + 1;
+//     if (goblinDamage > dwarfHealth) {
+//         dwarfHealth = 0;
+//         console.log("Goblin did " + goblinDamage + " damage. " + "Dwarf has " + dwarfHealth + " health left.");
+//         console.log("Overkill!! Goblin Wins!");
+//         break;
+//     } else if (goblinDamage < dwarfHealth) {
+//         dwarfHealth -= goblinDamage;
+//         console.log("Goblin did " + goblinDamage + " damage. " + "Dwarf has " + dwarfHealth + " health left.");
+//     } else if (goblinDamage == dwarfHealth) {
+//         dwarfHealth -= goblinDamage;
+//         console.log("Goblin did " + goblinDamage + " damage. " + "Dwarf has " + dwarfHealth + " health left.");
+//         console.log("Goblin Wins!");
+//         break;
+//     };
+//     if (dwarfDamage > goblinHealth) {
+//         goblinHealth = 0;
+//         console.log("Dwarf did " + dwarfDamage + " damage. " + "Goblin has " + goblinHealth + " health left.")
+//         console.log("Overkill!! Dwarf Wins!");
+//         break;
+//     } else if (dwarfDamage < goblinHealth) {
+//         goblinHealth -= dwarfDamage;
+//         console.log("Dwarf did " + dwarfDamage + " damage. " + "Goblin has " + goblinHealth + " health left.");
+//     } else if (dwarfDamage == goblinHealth) {
+//         goblinHealth -= dwarfDamage;
+//         console.log("Dwarf did " + dwarfDamage + " damage. " + "Goblin has " + goblinHealth + " health left.")
+//         console.log("Dwarf Wins!");
+//         break;
+//     };
+// } while (goblinHealth > 0 && dwarfHealth > 0);
+
+
